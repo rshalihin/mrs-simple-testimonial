@@ -17,5 +17,56 @@
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
 	"viewScript": "file:./view.js",
-	"attributes": {}
+	"attributes": {
+		"name": {
+			"type": "array",
+			"default": [
+				{
+					"id": "1",
+					"name": "John Doe"
+				},
+				{
+					"id": "2",
+                    "name": "Smith"
+				}
+			]
+		},
+		"profession": {
+			"type": "array",
+            "default": [
+                {
+                    "id": "1",
+                    "name": "Web Developer"
+                },
+				{
+					"id": "2",
+                    "name": "Web Designer"
+				}
+            ]
+		},
+		"quotes": {
+			"type": "array",
+			"default": [
+                {
+					"id": "1",
+                    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+				},
+                {
+					"id": "2",
+                    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+				}
+				
+			]
+		},
+		"image": {
+			"type":"array",
+			"default": [
+                {
+					"id": "1",
+                    "url": "https://via.placeholder.com/150",
+					"alt": ""
+				}
+			]
+		}
+	}
 }

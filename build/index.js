@@ -23,7 +23,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Edit({}) {
+function Edit({
+  attributes,
+  setAttributes
+}) {
+  const {} = attributes;
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...(0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)()
   });
@@ -150,7 +154,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"mrs-block/mrs-block-testimonials","version":"0.1.0","title":"Mrs Testimonial Block","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false,"align":["wide","full"]},"textdomain":"mrs-block-testimonials","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js","attributes":{}}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"mrs-block/mrs-block-testimonials","version":"0.1.0","title":"Mrs Testimonial Block","category":"widgets","icon":"smiley","description":"Example block scaffolded with Create Block tool.","example":{},"supports":{"html":false,"align":["wide","full"]},"textdomain":"mrs-block-testimonials","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js","attributes":{"name":{"type":"array","default":[{"id":"1","name":"John Doe"},{"id":"2","name":"Smith"}]},"profession":{"type":"array","default":[{"id":"1","name":"Web Developer"},{"id":"2","name":"Web Designer"}]},"quotes":{"type":"array","default":[{"id":"1","quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."},{"id":"2","quote":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."}]},"image":{"type":"array","default":[{"id":"1","url":"https://via.placeholder.com/150","alt":""}]}}}');
 
 /***/ })
 
